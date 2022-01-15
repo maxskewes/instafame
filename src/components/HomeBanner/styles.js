@@ -21,7 +21,6 @@ export const useStyles = makeStyles((theme) => ({
       flexDirection: 'column',
       justifyContent: 'space-around',
       alignItems: 'flex-start',
-      textTransform: 'uppercase',
       padding: '20px 0',
     },
   },
@@ -29,15 +28,15 @@ export const useStyles = makeStyles((theme) => ({
     color: WHITE,
     fontFamily: 'Tinos',
     fontWeight: '500',
-    [theme.breakpoints.up('xl')]: {
-      fontSize: '60px',
-    },
-    [theme.breakpoints.up('lg')]: {
-      fontSize: '50px',
-    },
-    [theme.breakpoints.up('xs')]: {
-      fontSize: '50px',
-    },
+    // [theme.breakpoints.up('xl')]: {
+    //   fontSize: '50px',
+    // },
+    // [theme.breakpoints.up('lg')]: {
+    //   fontSize: '40px',
+    // },
+    // [theme.breakpoints.up('xs')]: {
+    //   fontSize: '30px',
+    // },
     '&:hover': {
       opacity: '70%',
     },

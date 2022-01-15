@@ -1,4 +1,3 @@
-import React from 'react';
 import { useStyles } from './styles';
 import InstaLink from '../InstaLink';
 import { Typography } from '@mui/material';
@@ -11,14 +10,14 @@ const HomeBanner = () => {
       <div className={classes.linkDiv}>
         <div>
           <InstaLink to='/services'>
-            <Typography variant='h3' className={classes.linkText}>
+            <Typography variant='h4' className={classes.linkText}>
               Services
             </Typography>
           </InstaLink>
         </div>
         <div>
           <InstaLink to='/galleries'>
-            <Typography variant='h3' className={classes.linkText}>
+            <Typography variant='h4' className={classes.linkText}>
               Galleries
             </Typography>
           </InstaLink>
