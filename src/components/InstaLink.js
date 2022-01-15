@@ -15,7 +15,7 @@ export const useStyles = makeStyles(() => ({
 }));
 
 const InstaLink = (props) => {
-  const { to, variant, textColor, children, ...rest } = props;
+  const { to, children } = props;
   const classes = useStyles();
   return (
     <NavLink className={classes.instaLink} to={to}>

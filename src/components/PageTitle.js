@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 const BLACK = '#1C1C1C';
 
 const PageTitle = (props) => {
-  const { pageTitle, ...rest } = props;
+  const { pageTitle } = props;
   return (
     <Typography
       color={BLACK}

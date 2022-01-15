@@ -1,11 +1,9 @@
-import { useStyles } from './styles';
-import { Box, Grid, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 import GalleryWrapper from './GalleryWrapper';
 import PageItem from '../../components/PageItem';
 import BeforeAfter from '../../components/BeforeAfter';
 
 const Galleries = () => {
-  const classes = useStyles();
   return (
     <GalleryWrapper>
       <Grid container spacing={2}>

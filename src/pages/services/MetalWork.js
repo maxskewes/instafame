@@ -1,12 +1,10 @@
-import { useStyles } from './styles';
-import { Box, Container, Grid } from '@mui/material';
+import { Box } from '@mui/material';
 import ServiceWrapper from './ServiceWrapper';
 import metalWorkLogo from '../../assets/metalworkLogo.png';
 import ImageSlider from '../../components/ImageSlider';
 import { danielsjob } from '../galleries/ImageArrays';
 
 export default function MetalWork() {
-  const classes = useStyles();
   return (
     <ServiceWrapper>
       <Box

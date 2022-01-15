@@ -64,11 +64,17 @@ export default function SideHeader() {
         </Typography>
       </Box>
       <Box display='flex' flexDirection='column' padding='30px 0'>
-        <InstaLink to='/'><h3>Home</h3></InstaLink>
+        <InstaLink to='/'>
+          <h3>Home</h3>
+        </InstaLink>
         <br />
-        <InstaLink to='/galleries'><h3>Galleries</h3></InstaLink>
+        <InstaLink to='/galleries'>
+          <h3>Galleries</h3>
+        </InstaLink>
         <br />
-        <InstaLink to='/services'><h3>Services</h3></InstaLink>
+        <InstaLink to='/services'>
+          <h3>Services</h3>
+        </InstaLink>
       </Box>
     </Box>
   );

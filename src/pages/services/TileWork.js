@@ -1,12 +1,10 @@
-import { useStyles } from './styles';
-import { Box, Container, Grid } from '@mui/material';
+import { Box } from '@mui/material';
 import ServiceWrapper from './ServiceWrapper';
 import tileworkLogo from '../../assets/tileworkLogo.png';
 import ImageSlider from '../../components/ImageSlider';
 import { danielsjob } from '../galleries/ImageArrays';
 
 const TileWork = () => {
-  const classes = useStyles();
   return (
     <ServiceWrapper>
       <Box

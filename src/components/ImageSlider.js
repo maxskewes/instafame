@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Container, Grid, Item } from '@mui/material';
+import { Box, Container } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
@@ -35,7 +35,7 @@ export const useStyles = makeStyles(() => ({
 }));
 
 const ImageSlider = (props) => {
-  const { jobTitle = null, jobArray = null, jobFolder = null, ...rest } = props;
+  const { jobTitle = null, jobArray = null, jobFolder = null } = props;
   const classes = useStyles();
   const [current, setCurrent] = useState(0);
   const length = jobArray.length;

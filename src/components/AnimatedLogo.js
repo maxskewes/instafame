@@ -1,7 +1,6 @@
-import React from 'react';
 import { makeStyles } from '@mui/styles';
 import { motion } from 'framer-motion';
-import { Box, Container } from '@mui/material';
+import { Box } from '@mui/material';
 
 const useStyles = makeStyles((theme) => ({
   alBox: {
@@ -35,10 +34,7 @@ const useStyles = makeStyles((theme) => ({
 export default function AnimatedLogo() {
   const classes = useStyles();
   return (
-    <Box
-    width='100%'
-    className={classes.alBox}
-    >
+    <Box width='100%' className={classes.alBox}>
       <motion.img
         animate={{
           scale: [1, 3, 1, 3, 1, 3, 1],

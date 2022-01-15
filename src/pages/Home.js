@@ -2,10 +2,9 @@ import React from 'react';
 import { useStyles } from './styles';
 import HomeBanner from '../components/HomeBanner/index';
 import BeforeAfter from '../components/BeforeAfter';
-import { Box, Container, Grid, Typography } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 
 const WHITE = '#EFEFEF';
-const BLACK = '#1C1C1C';
 
 const beforePic = '/images/house-before.jpg';
 const afterPic = '/images/house-after.jpg';

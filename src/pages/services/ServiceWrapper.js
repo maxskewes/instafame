@@ -6,7 +6,7 @@ import InstaLink from '../../components/InstaLink';
 import SmDisplayHead from '../../components/SmDisplayHead';
 
 const ServiceWrapper = (props) => {
-  const { children, ...rest } = props;
+  const { children } = props;
   const classes = useStyles();
   return (
     <Box className={classes.serviceBox}>

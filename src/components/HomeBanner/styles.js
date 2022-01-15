@@ -1,7 +1,6 @@
 import { makeStyles } from '@mui/styles';
 
 const WHITE = '#EFEFEF';
-const BLACK = '#1C1C1C';
 
 export const useStyles = makeStyles((theme) => ({
   nav: {
@@ -23,7 +22,7 @@ export const useStyles = makeStyles((theme) => ({
       justifyContent: 'space-around',
       alignItems: 'flex-start',
       textTransform: 'uppercase',
-      padding: '20px 0'
+      padding: '20px 0',
     },
   },
   linkText: {

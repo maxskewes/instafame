@@ -40,7 +40,9 @@ const SmDisplayHead = () => {
     <div className={classes.div}>
       <div className={classes.textDiv}>
         <div>
-          <Typography><b>Insta-Fame Studios</b></Typography>
+          <Typography>
+            <b>Insta-Fame Studios</b>
+          </Typography>
         </div>
         <div>
           <Typography>CCB#179140 - Ben Lund - (503) 484-3855</Typography>

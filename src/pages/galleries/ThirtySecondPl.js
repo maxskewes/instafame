@@ -1,10 +1,8 @@
-import { useStyles } from './styles';
 import ImageSlider from '../../components/ImageSlider';
 import { thirtysecondpl } from './ImageArrays';
 import GalleryWrapper from './GalleryWrapper';
 
 const ThirtySecondPl = () => {
-  const classes = useStyles();
   return (
     <GalleryWrapper>
       <ImageSlider

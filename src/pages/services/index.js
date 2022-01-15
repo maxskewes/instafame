@@ -1,11 +1,9 @@
-import { useStyles } from './styles';
-import { Box, Container, Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 import ServiceWrapper from './ServiceWrapper';
 import PageItem from '../../components/PageItem';
 import BeforeAfter from '../../components/BeforeAfter';
 
 const Services = () => {
-  const classes = useStyles();
   return (
     <ServiceWrapper>
       <Grid container spacing={2}>

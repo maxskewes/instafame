@@ -3,7 +3,6 @@ import { Container, Grid, Typography } from '@mui/material';
 import InstaLink from './InstaLink';
 import crumpledBG from '../assets/graph-crumpled-bg.png';
 
-const WHITE = '#EFEFEF';
 const BLACK = '#1C1C1C';
 
 const useStyles = makeStyles(() => ({
@@ -17,7 +16,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 const PageItem = (props) => {
-  const { itemTitle = 'Job Title', children, to = '/', ...rest } = props;
+  const { itemTitle = 'Job Title', children, to = '/' } = props;
   const classes = useStyles();
   return (
     <Grid item xs={12} sm={6} md={4} lg={3}>

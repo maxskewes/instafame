@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStyles } from './styles';
 import InstaLink from '../InstaLink';
-import { Box, Container, fabClasses, Grid, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 
 const HomeBanner = () => {
   const classes = useStyles();

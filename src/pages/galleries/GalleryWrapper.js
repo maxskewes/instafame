@@ -6,14 +6,14 @@ import InstaLink from '../../components/InstaLink';
 import SmDisplayHead from '../../components/SmDisplayHead';
 
 const GalleryWrapper = (props) => {
-  const { children, ...rest } = props;
+  const { children } = props;
   const classes = useStyles();
   return (
     <Box className={classes.pageBox}>
       <SideHeader />
       <SmDisplayHead />
       <Container>
-        <InstaLink to ='/galleries'>
+        <InstaLink to='/galleries'>
           <PageTitle pageTitle='Galleries' />
         </InstaLink>
         {children}

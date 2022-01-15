@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { makeStyles } from '@mui/styles';
 import { Box, Container, Typography } from '@mui/material';
 
-const WHITE = '#EFEFEF';
 const BLACK = '#1C1C1C';
 
 const useStyles = makeStyles(() => ({
@@ -20,7 +19,6 @@ const BeforeAfter = (props) => {
     beforeTitle = 'Before',
     afterTitle = 'After',
     color = BLACK,
-    ...rest
   } = props;
   const classes = useStyles();
   const [pic, setPic] = useState(beforePic);
@@ -31,9 +29,7 @@ const BeforeAfter = (props) => {
   };
 
   return (
-    <Container
-      width='auto'
-    >
+    <Container width='auto'>
       <Typography
         color={color}
         style={{
@@ -51,7 +47,7 @@ const BeforeAfter = (props) => {
           onMouseEnter={() => hovered(afterPic, afterTitle)}
           onMouseLeave={() => hovered(beforePic, beforeTitle)}
           style={{ maxWidth: '100%', maxHeight: '300px' }}
-          alt='Before and After photo'
+          alt='Before and After'
         />
       </Box>
     </Container>
